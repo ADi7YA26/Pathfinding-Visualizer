@@ -7,6 +7,8 @@ const usePathfinding = () => {
   if(!context){
     throw new Error("usePathfinding must be used within a PathFindingProvider")
   }
+
+  return context;
 }
 
 export default usePathfinding

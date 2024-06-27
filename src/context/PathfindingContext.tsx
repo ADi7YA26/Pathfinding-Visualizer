@@ -3,7 +3,7 @@ import { AlgorithmType, GridType, MazeType } from "../utils/types";
 import { createGrid } from "../utils/helpers";
 import { END_TILE_CONFIGURATION, START_TILE_CONFIGURATION } from "../utils/constants";
 
-interface PathFindingInterface {
+export interface PathFindingInterface {
   algorithm: AlgorithmType;
   setAlgorithm: (algorithm: AlgorithmType) => void;
   maze: MazeType;

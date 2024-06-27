@@ -9,7 +9,7 @@ export const START_TILE_CONFIGURATION = {
   isPath: false,
   distance: 0,
   isStart: false,
-  isTraversed: false,
+  isTraversed: false, 
   parent: null
 }
 
